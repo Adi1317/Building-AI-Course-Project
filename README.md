@@ -1,75 +1,121 @@
 # Project Title
 
-Final project for the Building AI course
+Painting with AI
 
 ## Summary
 
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
+This project focuses on using Artificial Intelligence to create digital paintings and artwork. AI helps generate creative designs, artistic styles, and unique visual content based on user input, making painting faster, smarter, and more innovative.
 
+---
 
 ## Background
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
+Traditional painting requires time, skill, and creative effort. Many beginners struggle to create professional-looking artwork, while designers often need faster ways to generate ideas.
 
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
+This project helps solve:
 
+* Difficulty in creating high-quality digital paintings  
+* Time-consuming manual artwork design  
+* Limited access to artistic skills for beginners  
+
+My personal motivation for choosing this topic is that AI in art is becoming very popular and useful. It allows creativity to grow while helping artists and learners produce better visual designs.
+
+---
 
 ## How is it used?
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
+The system works by taking user input such as text prompts, sketches, or style preferences. The AI model then generates a painting or artistic image based on the provided instructions.
 
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
+It can be useful in:
 
-If you need to resize images, you have to use an HTML tag, like this:
+* Digital art creation  
+* Graphic design  
+* Animation and gaming  
+* Advertising and social media content  
+* Art learning and education  
+
+Users include students, designers, artists, content creators, and beginners interested in digital painting.
+
+The process includes:
+
+1. Giving a text prompt or sketch input  
+2. Processing the input using AI models  
+3. Applying artistic style generation  
+4. Producing a final digital painting  
+5. Allowing editing and improvement of the generated art
+
 <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
 
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
-
-   totPop = sum(pop)
-   totFish = sum(fishers)
-
-   # write your solution here
-
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
-```
-
+---
 
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+The project uses image datasets collected from public art databases and open-source datasets for training AI models.
+
+Example sources:
+
+* Kaggle Art Dataset  
+* Google Open Images Dataset  
+* Public artistic image repositories  
+
+### AI Methods Used
+
+* Computer Vision  
+* Generative AI  
+* Neural Networks  
+* Style Transfer  
+* Deep Learning Models
+
+| Method | Purpose |
+|---|---|
+| Computer Vision | Understand image structure |
+| Neural Networks | Learn artistic patterns |
+| Style Transfer | Apply artistic styles |
+| Generative AI | Create new paintings |
+
+---
 
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+This project does not fully replace human creativity.
+
+Limitations include:
+
+* AI may generate inaccurate or unrealistic artwork  
+* Original creativity may still require human input  
+* High-quality output may need powerful hardware  
+* Copyright issues for training data must be considered  
+
+Ethical considerations:
+
+* Ownership of AI-generated art  
+* Fair use of artists’ original work  
+* Avoiding plagiarism in generated paintings
+
+---
 
 ## What next?
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+This project can be improved by using more advanced AI models like GANs, Diffusion Models, and better style transfer systems.
 
+Future improvements:
+
+* Real-time painting generation  
+* Personalized art style suggestions  
+* Mobile app for AI painting  
+* Voice-based painting instructions  
+* Better editing tools for users
+
+To move forward, stronger GPU support, larger datasets, and advanced deep learning knowledge would be helpful.
+
+---
 
 ## Acknowledgments
 
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+* Kaggle dataset contributors  
+* Open-source AI art communities  
+* Research papers on Generative AI and Style Transfer  
+* Python and deep learning libraries documentation  
+* Elements of AI – Building AI Course  
+
+Special thanks to all creators and researchers whose work inspired this AI painting project.
