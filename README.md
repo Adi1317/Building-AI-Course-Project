@@ -1,4 +1,3 @@
-# Project Title
 
 Painting with AI
 
